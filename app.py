@@ -13,9 +13,6 @@ def hello():
 def members():
     return "Members"
 
-@app.route("/members/<string:name>/")
-def getMember(name):
-    return name</string:name>
 
-if __name__=="__name__":
+if __name__ == "__main__":
     app.run()
